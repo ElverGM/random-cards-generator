@@ -1,10 +1,14 @@
 body {
-  background-color: green;
+  background-color: rgb(0, 150, 0);
 }
 
 .titulo {
-  display: flex;
-  align-items: center;
+  text-align: center;
+  color: purple;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 400%;
+  letter-spacing: 10px;
+  -webkit-text-stroke: 0.01px black;
 }
 
 .cardy {
@@ -19,6 +23,8 @@ body {
   position: relative;
   display: flex;
   align-items: center;
+
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.15);
 }
 
 .top-suit {
